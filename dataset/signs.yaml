@@ -1,0 +1,9 @@
+# train and val data as path/images/
+train: ./signs/images/
+val: ./signs/images/
+
+# number of classes
+nc: 7
+
+# class names
+names: ['C_Left_T_junction', 'Crossroad_Intersec', 'Hairpin_C_left', 'Priority_crossroad', 'Road narrows', 'T_junction_1', 'T_junction_2']
