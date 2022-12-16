@@ -8,9 +8,9 @@ from pathlib import Path
 # parse arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("-m", "--model", help="Provide model path for inference",
-                    default='./weights/best.blob', type=str)
+                    default='./weights/result_fixed/best.blob', type=str)
 parser.add_argument("-c", "--config", help="Provide config path for inference",
-                    default='./weights/best.json', type=str)
+                    default='./weights/result_fixed/best.json', type=str)
 args = parser.parse_args()
 CONFIG_PATH = args.config
 
